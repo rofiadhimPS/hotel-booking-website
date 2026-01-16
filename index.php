@@ -8,32 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/common.css">
     <style>
-        * {
-            font-family: 'Poppins', sans-serif;
-        }
-        .h-font {
-            font-family: 'Merienda', cursive;
-        }
-        /* Hide number arrows */
-        /* Chrome, Safari, Edge, Opera */ 
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
-        /* Firefox */
-        input[type=number] {
-          -moz-appearance: textfield;
-        }
-
-        .custom-bg{
-          background-color: #2ec1ac;
-        }
-
-        .custom-bg:hover{
-          background-color: #279e8c;
-        }
         .availiability-form {
           margin-top: -50px;
           z-index: 2;
@@ -46,7 +22,6 @@
             padding: 0 35px;
           }
         }
-
     </style>
 </head>
 <body class="bg-light">
@@ -422,7 +397,7 @@
     </div>
 
 
-    
+
 <br><br><br>
 <br><br><br>  
     
