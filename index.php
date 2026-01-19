@@ -104,7 +104,7 @@
           <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
             <img src="images/rooms/1.jpg" class="card-img-top">
             <div class="card-body">
-              <h5>Simple Room Night</h5>
+              <h5>Simple Room Name</h5>
               <h6 class="mb-4">IDR200k per night</h6>
               <div class="features mb-4">
                 <h6 class="mb-1">Features</h6>
@@ -132,6 +132,15 @@
                   AC
                 </span><span class="badge rounded-pill bg-light text-dark text-wrap">
                   Room heater
+                </span>
+              </div>
+              <div class="guests mb-4">
+                <h6 class="mb-1">Guests</h6>
+                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  5 Adults
+                </span>
+                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  4 Children
                 </span>
               </div>
               <div class="ratings mb-4">
@@ -154,7 +163,7 @@
           <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
             <img src="images/rooms/1.jpg" class="card-img-top">
             <div class="card-body">
-              <h5>Simple Room Night</h5>
+              <h5>Simple Room Name</h5>
               <h6 class="mb-4">IDR200k per night</h6>
               <div class="features mb-4">
                 <h6 class="mb-1">Features</h6>
@@ -182,6 +191,15 @@
                   AC
                 </span><span class="badge rounded-pill bg-light text-dark text-wrap">
                   Room heater
+                </span>
+              </div>
+              <div class="guests mb-4">
+                <h6 class="mb-1">Guests</h6>
+                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  5 Adults
+                </span>
+                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  4 Children
                 </span>
               </div>
               <div class="ratings mb-4">
@@ -204,7 +222,7 @@
           <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
             <img src="images/rooms/1.jpg" class="card-img-top">
             <div class="card-body">
-              <h5>Simple Room Night</h5>
+              <h5>Simple Room Name</h5>
               <h6 class="mb-4">IDR200k per night</h6>
               <div class="features mb-4">
                 <h6 class="mb-1">Features</h6>
@@ -232,6 +250,15 @@
                   AC
                 </span><span class="badge rounded-pill bg-light text-dark text-wrap">
                   Room heater
+                </span>
+              </div>
+              <div class="guests mb-4">
+                <h6 class="mb-1">Guests</h6>
+                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  5 Adults
+                </span>
+                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                  4 Children
                 </span>
               </div>
               <div class="ratings mb-4">
@@ -490,7 +517,6 @@
       },
     });
 
-    document.getElementById("copy-right-year").textContent = new Date().getFullYear();
     </script>
 
     
