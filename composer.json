@@ -1,0 +1,27 @@
+{
+    "name": "thorengine/hotel-booking-website",
+    "description": "Hotel Booking Website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Muh Rofiadhim Rajab",
+            "email": "muhammadrofiadhim@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ThorEngine\\": "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ThorEngine\\": "tests"
+        }
+    }
+}
