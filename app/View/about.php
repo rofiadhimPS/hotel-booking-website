@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MR Hotel - FACILITIES</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
-    <?php require_once("inc/links.php") ?>
+    <?php require_once __DIR__ . '/inc/links.php' ?>
     <style>
       .box:hover {
         border-top-color: var(--teal) !important;
@@ -14,7 +14,7 @@
 </head>
 <body class="bg-light">
 
-    <?php require_once("inc/header.php") ?>
+    <?php require_once __DIR__ . '/inc/header.php' ?>
 
     <div class="my-5 px-4"> 
       <h2 class="fw-bold h-font text-center">ABOUT US</h2>
@@ -108,7 +108,7 @@
       </div>
     </div>
     
-    <?php require_once("inc/footer.php") ?>
+    <?php require_once __DIR__ . '/inc/footer.php' ?>
     
       <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>

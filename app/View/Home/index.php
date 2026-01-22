@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MR Hotel - HOME</title>
-    <?php require_once("inc/links.php") ?>
+    <title><?= $model['title']; ?></title>
+    <?php require_once __DIR__ . '/../inc/links.php' ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <style>
         .availiability-form {
@@ -23,7 +23,7 @@
 </head>
 <body class="bg-light">
 
-    <?php require_once("inc/header.php") ?>
+    <?php require_once __DIR__ . '/../inc/header.php' ?>
 
     <!-- Carousel -->
     <div class="container-fluid px-lg-4 mt-4">
@@ -31,22 +31,22 @@
       <div class="swiper swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="images/carousel/1.png" class="w-100 d-block"/>
+            <img src="/images/carousel/1.png" class="w-100 d-block"/>
           </div>
           <div class="swiper-slide">
-            <img src="images/carousel/2.png" class="w-100 d-block"/>
+            <img src="/images/carousel/2.png" class="w-100 d-block"/>
           </div>
           <div class="swiper-slide">
-            <img src="images/carousel/3.png" class="w-100 d-block"/>
+            <img src="/images/carousel/3.png" class="w-100 d-block"/>
           </div>
           <div class="swiper-slide">
-            <img src="images/carousel/4.png" class="w-100 d-block"/>
+            <img src="/images/carousel/4.png" class="w-100 d-block"/>
           </div>
           <div class="swiper-slide">
-            <img src="images/carousel/5.png" class="w-100 d-block"/>
+            <img src="/images/carousel/5.png" class="w-100 d-block"/>
           </div>
           <div class="swiper-slide">
-            <img src="images/carousel/6.png" class="w-100 d-block"/>
+            <img src="/images/carousel/6.png" class="w-100 d-block"/>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-            <img src="images/rooms/1.jpg" class="card-img-top">
+            <img src="/images/rooms/1.jpg" class="card-img-top">
             <div class="card-body">
               <h5>Simple Room Name</h5>
               <h6 class="mb-4">IDR200k per night</h6>
@@ -161,7 +161,7 @@
         </div>
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-            <img src="images/rooms/1.jpg" class="card-img-top">
+            <img src="/images/rooms/1.jpg" class="card-img-top">
             <div class="card-body">
               <h5>Simple Room Name</h5>
               <h6 class="mb-4">IDR200k per night</h6>
@@ -220,7 +220,7 @@
         </div>
         <div class="col-lg-4 col-md-6 my-3">
           <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-            <img src="images/rooms/1.jpg" class="card-img-top">
+            <img src="/images/rooms/1.jpg" class="card-img-top">
             <div class="card-body">
               <h5>Simple Room Name</h5>
               <h6 class="mb-4">IDR200k per night</h6>
@@ -291,23 +291,23 @@
     <div class="container">
       <div class="row justify-content-evenly px-lg-0 px-5">
         <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
-          <img src="images/facilities/wifi.svg" width="80px">
+          <img src="/images/facilities/wifi.svg" width="80px">
           <h5 class="mt-3">Wifi</h5>
         </div>
         <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
-          <img src="images/facilities/wifi.svg" width="80px">
+          <img src="/images/facilities/wifi.svg" width="80px">
           <h5 class="mt-3">Wifi</h5>
         </div>
         <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
-          <img src="images/facilities/wifi.svg" width="80px">
+          <img src="/images/facilities/wifi.svg" width="80px">
           <h5 class="mt-3">Wifi</h5>
         </div>
         <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
-          <img src="images/facilities/wifi.svg" width="80px">
+          <img src="/images/facilities/wifi.svg" width="80px">
           <h5 class="mt-3">Wifi</h5>
         </div>
         <div class="col-lg-2 col-md-2 text-center bg-white rounded shadow py-4 my-3">
-          <img src="images/facilities/wifi.svg" width="80px">
+          <img src="/images/facilities/wifi.svg" width="80px">
           <h5 class="mt-3">Wifi</h5>
         </div>
         <div class="col-lg-12 text-center mt-5">
@@ -326,7 +326,7 @@
         <div class="swiper-wrapper mb-5">
           <div class="swiper-slide bg-white p-4">
             <div class="profile d-flex align-items-center mb-3">
-              <img src="images/about/rating.svg" width="30px">
+              <img src="/images/about/rating.svg" width="30px">
               <h6 class="m-0 ms-2">Random user</h6>
             </div>
             <p>
@@ -342,7 +342,7 @@
           </div>
           <div class="swiper-slide bg-white p-4">
             <div class="profile d-flex align-items-center mb-3">
-              <img src="images/about/rating.svg" width="30px">
+              <img src="/images/about/rating.svg" width="30px">
               <h6 class="m-0 ms-2">Random user</h6>
             </div>
             <p>
@@ -358,7 +358,7 @@
           </div>
           <div class="swiper-slide bg-white p-4">
             <div class="profile d-flex align-items-center mb-3">
-              <img src="images/about/rating.svg" width="30px">
+              <img src="/images/about/rating.svg" width="30px">
               <h6 class="m-0 ms-2">Random user</h6>
             </div>
             <p>
@@ -374,7 +374,7 @@
           </div>
           <div class="swiper-slide bg-white p-4">
             <div class="profile d-flex align-items-center mb-3">
-              <img src="images/about/rating.svg" width="30px">
+              <img src="/images/about/rating.svg" width="30px">
               <h6 class="m-0 ms-2">Random user</h6>
             </div>
             <p>
@@ -390,7 +390,7 @@
           </div>
           <div class="swiper-slide bg-white p-4">
             <div class="profile d-flex align-items-center mb-3">
-              <img src="images/about/rating.svg" width="30px">
+              <img src="/images/about/rating.svg" width="30px">
               <h6 class="m-0 ms-2">Random user</h6>
             </div>
             <p>
@@ -464,8 +464,8 @@
     </div>
 
     <!-- Footer -->
-    <?php require_once("inc/footer.php") ?>
-    
+    <?php require_once __DIR__ . '/../inc/footer.php' ?>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     
     <!-- Initialize Swiper -->

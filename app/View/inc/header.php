@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 shadow sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">MR Hotel</a>
@@ -10,15 +11,15 @@
           <a class="nav-link active me-2" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link me-2" href="rooms.php">Rooms</a>
+          <a class="nav-link me-2" href="rooms">Rooms</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link me-2" href="facilities.php">Facilities</a>
+          <a class="nav-link me-2" href="facilities">Facilities</a>
         </li><li class="nav-item">
-          <a class="nav-link me-2" href="contact.php">Contact us</a>
+          <a class="nav-link me-2" href="contact">Contact us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link me-2" href="about.php">About us</a>
+          <a class="nav-link me-2" href="about">About us</a>
         </li>
       </ul>
       <div class="d-flex">

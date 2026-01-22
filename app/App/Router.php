@@ -23,8 +23,18 @@ class Router
     $method = $_SERVER['REQUEST_METHOD'];
 
     foreach(self::$routes as $route) {
-      if($method == $route['method'] && $path == $route['path']){
-        echo "CONTROLLER : " . $route['controller'] . " FUNCTION : " . $route['function'];
+      $pattern = "#^" . $route['path'] ."$#";
+      if($method == $route['method'] && preg_match($pattern, $path, $variables)){
+
+        $controller = new $route['controller'];
+        $function = $route['function'];
+        
+        array_shift($variables);
+        call_user_func_array([$controller, $function], $variables);
+
+        // or with spread operator
+        // $controller->$function(...$variables);
+        
         return;
       }
     }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MR Hotel - FACILITIES</title>
-    <?php require_once("inc/links.php") ?>
+    <?php require_once __DIR__ . '/inc/links.php' ?>
     <style>
       .pop:hover {
         border-top-color: var(--teal) !important;
@@ -15,7 +15,7 @@
 </head>
 <body class="bg-light">
 
-    <?php require_once("inc/header.php") ?>
+    <?php require_once __DIR__ . '/inc/header.php' ?>
 
     <div class="my-5 px-4"> 
       <h2 class="fw-bold h-font text-center">OUR FACILITIES</h2>
@@ -104,7 +104,7 @@
       </div>
     </div>
 
-    <?php require_once("inc/footer.php") ?>
+    <?php require_once __DIR__ . '/inc/footer.php' ?>
     
 </body>
 </html>

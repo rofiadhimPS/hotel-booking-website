@@ -16,12 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ThorEngine\\": "app"
+            "ThorEngine\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ThorEngine\\": "tests"
+            "ThorEngine\\": "tests/"
         }
     }
 }
